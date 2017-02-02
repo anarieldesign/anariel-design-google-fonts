@@ -126,7 +126,7 @@ if (!class_exists('ad_gfonts')) {
 
 			$wp_customize->add_section( 'ad_gfp_customizer_section_fonts', array(
 				'title'    => __( 'Google Fonts for AnarielDesign', 'anarieldesign' ),
-				'description'    => __( 'To edit the font for a specific tag, check the box beside and begin typing the font family you would like. The box should auto-complete with the available fonts.', 'anarieldesign' ),
+				'description'    => __( 'From the drop-down menus you can select font family and font weight per tag. To speed up the search open the drop-down and type in the first few letters of the font you are looking for.', 'anarieldesign' ),
 				'priority' => 1
 			));
 
