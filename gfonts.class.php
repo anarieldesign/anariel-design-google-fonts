@@ -211,7 +211,7 @@ if (!class_exists('ad_gfonts')) {
 
 				if($font_family != 'default' && !empty($font_family) ) {?>
 					<!-- AnarielDesign Google Font Picker -->
-					<?php if(!array_key_exists($font_family_temp, $font_css_register)){ ?><link href='http://fonts.googleapis.com/css?family=<?php
+					<?php if(!array_key_exists($font_family_temp, $font_css_register)){ ?><link href='https://fonts.googleapis.com/css?family=<?php
 					if( substr($font_string, -1) == ":" ) {
 						echo $font_family;
 					} else {
