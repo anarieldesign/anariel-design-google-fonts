@@ -114,7 +114,7 @@ if (!class_exists('ad_gfonts')) {
 		// Add the Customizer API settings and controllers
 		function ad_gfp_register_customizer_options( $wp_customize ) {
 
-            $json = file_get_contents( plugins_url( 'fonts.json' , __FILE__ ) );
+            $json = wp_remote_fopen( plugins_url( 'fonts.json' , __FILE__ ) );
             $fonts_decode = json_decode( $json, TRUE );
             $this->list_fonts['default'] = 'Default';
 
