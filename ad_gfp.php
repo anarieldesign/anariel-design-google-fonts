@@ -5,7 +5,7 @@
     Plugin URI: http://www.anarieldesign.com
     Description: Allows you to customize the fonts on your Anariel Design themes using the Google Fonts library.
     Author: Anariel Design
-    Version: 1.0
+    Version: 1.0.1
     Author URI: http://www.anarieldesign.com
     License: GPL2
 
